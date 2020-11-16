@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box !important;
+}
+
+.landing-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+/* dashboard */
+.dashboard-wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.dashboard-header {
+  width: 100%;
+  height: 60px;
+  background: rgb(88, 88, 255);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.dashboard-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dashboard-usename {
+  font-size: 16px;
+}
+
+.dashboard-body {
+  height: calc(100% - 60px);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 200px calc(100% - 200px);
+  box-sizing: border-box;
+
+}
+
+.dashboard-leftnav {
+  background: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.dashboard-navitem {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dashboard-navitem-end {
+  margin-top: auto;
+}
+
+.dashboard-navitem:hover {
+  background: white;
+  width: 100%;
+}
+
+.dashboard-navitem-active {
+  background: white;
+  width: 100%;
+}
+
+.dashboard-content {
+  background: white;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+
+}
+
+/* home wrapper */
+.home-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.home-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.installed-apps {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.create-app-holder {
+  width: 150px;
+  height: 170px;
+  border: 1px dashed gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-image-holder {
+  width: 100px;
+  height: 100px;
+  background: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  overflow: hidden;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.installed-app-holder {
+  width: 150px;
+  height: 170px;
+  box-shadow: 0 0 4px 0 gray, 0 0 1px 0 gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.action-button-holder {
+  padding: 5px 20px;
+  background: rgb(107, 107, 255);
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* install app */
+.install-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.font-size-sm {
+  font-size: 12px;
+  text-align: center;
+}
